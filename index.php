@@ -13,9 +13,7 @@
     <div class="flex">
         <div class="wrapper">
             <form action="index.php" method="post">
-                <div class="block">
-                    <p>Оберіть що показує регулювальник</p>
-                </div>
+                <p>Оберіть що показує регулювальник</p>
                 <div class="block">
                     <div class="select-wrapper">
                         <label for="test" id="arrow">

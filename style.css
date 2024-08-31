@@ -7,8 +7,7 @@ p {
     font-family: "SUSE", sans-serif;
     font-weight: bold;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 select {
