@@ -36,15 +36,16 @@ if($_POST) {
     if($select==1) {
         echo "<p>Увага! Зараз зміниться головне положення на перехресті</p>";
         echo '<img src="val1.jpg" alt="">';
-    } else if($select==2) {
+    } else if($select==2 || $select==4) {
         echo "<p>Стій! Рух заборонено у всі сторони</p>";
-        echo '<img src="val2.jpg" alt="">';
+        if($select==2) {
+            echo '<img src="val2.jpg" alt="">';
+        } else {
+            echo '<img src="val4.jpg" alt="">';
+        }
     } else if($select==3) {
         echo "<p>Ура! Рух дозволено у всі сторони</p>";
         echo '<img src="val3.jpg" alt="">';
-    } else if($select==4){
-        echo "<p>Стій! Рух заборонено в усі сторони</p>";
-        echo '<img src="val4.jpg" alt="">';
     } else if($select==5) {
         echo "<p>Дозволено рух тільки на право!</p>";
         echo '<img src="val5.jpg" alt="">';
